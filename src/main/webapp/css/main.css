@@ -1,0 +1,146 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-attachment: fixed;
+	font-size: 17px;
+	color: white;
+}
+
+#cityInput{
+	width: 132px;
+	height: 23px;
+	border-radius:3px;
+}
+
+#changeForm{
+	display:inline;
+	margin-left:30px;
+	
+}
+
+#location {
+	color: white;
+	padding-top:20px;
+}
+
+#forecastTable {
+	border-spacing: 17px;
+	border-collapse: collapse;
+}
+
+#detailsTable{
+	border-spacing: 1px;
+}
+
+.forecastTable tr { 
+   border: 1px solid rgba(255, 255, 255, .3);
+  border-width: 1px 0;
+}
+
+.forecastTable td{
+	padding-left:20px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+.forecastTable tr:first-child {
+  border-top: none;
+}
+.forecastTable tr:last-child {
+  border-bottom: none;
+}
+
+.leftTd{
+	padding-right:30px;
+}
+
+.detailsTable tr { 
+   border: 1px solid rgba(255, 255, 255, .3);
+  border-width: 1px 0;
+}
+
+.detailsTable td{
+	padding-left:20px;
+	padding-bottom:5px;
+	padding-top:10px;
+}
+
+.detailsTable tr:first-child {
+  border-top: none;
+}
+.detailsTable tr:last-child {
+  border-bottom: none;
+}
+
+#temperature {
+	margin-left: 200px;
+	margin-top: 110px;
+}
+
+p {
+	display: inline
+}
+
+#container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#leftSide {
+	float:left;
+	width: 390px;
+	margin-left: 200px;
+}
+
+#rightSide {
+	float:left;
+	margin-left:20px;
+	width: 390px;
+}
+
+#forecast {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content {
+	font-size: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.half-circle {
+    width: 200px;
+    height: 100px;
+    /* background-color: gold; */
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border: 5px dotted white;
+    border-bottom: 0;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left:80px;
+}
+
+#sunContent{
+	padding-top:10px;
+}
+
+.details{
+	width: 370px;
+	height: 266px;
+	background-color: rgba(0, 0, 0, 0.7);
+	margin-bottom:20px;
+}
+
+.sun{
+	width: 370px;
+	height: 216px;
+	background-color: rgba(0, 0, 0, 0.7);
+	margin-bottom:20px;
+}
+
+
+.numTd {
+	text-align: right;
+}
