@@ -20,11 +20,11 @@
 
 		<div id="location">
 			<h1 style="display: inline">${city}</h1>
-			<form id="changeForm" action="/weather/changeCity" method="GET">
-				<input id="cityInput" type="text" name="city"> <input
-					type="submit" value="Change" />
+			<form id="changeForm" action="/weather/main" method="GET">
+				<input id="cityInput" type="text" name="city" required="required"> <input
+					type="submit" value="Change"/>
 				<c:choose>
-					<c:when test="${not empty cannotFind}">
+					<c:when test="${!empty cannotFind}">
 						<span style="color: red">Cannot find this city</span>
 					</c:when>
 				</c:choose>
